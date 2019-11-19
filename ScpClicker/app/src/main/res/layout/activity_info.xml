@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.info.scp_clicker.activity_info">
+
+    <TextView
+        android:id="@+id/appInfoText"
+        android:layout_width="251dp"
+        android:layout_height="123dp"
+        android:text="AppVersion: 1.1 Java OpenAlpha                                                       Alpha Appentwicklung GADL, Karlsruhe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="325dp"
+        android:layout_height="284dp"
+        android:text="Willkommen in unserem Info Text. \n Wir werden ihnen hier keinerlei relevanten Informationen übermitteln, \n noch wird hier sonst irgend ein verwertbarer Inhalt zu finden sein. \n Wir wünschen Ihnen viel Spaß mit der App, \n Mit freundlichen Grüßen \n Ihr Alpha Team der App Entwicklung"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:fontFamily="casual"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="84dp"
+        android:layout_height="41dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951" />
+</androidx.constraintlayout.widget.ConstraintLayout>
