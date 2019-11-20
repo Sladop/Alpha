@@ -25,7 +25,6 @@ public class HomeFragment extends Fragment {
                 ViewModelProviders.of(this).get(HomeViewModel.class);
         View root = inflater.inflate(R.layout.fragment_home, container, false);
         final TextView textView = root.findViewById(R.id.text_home);
-        //final ImageView backImg = root.findViewById(R.id.backImg);
 
         homeViewModel.getText().observe(this, new Observer<String>() {
             @Override
