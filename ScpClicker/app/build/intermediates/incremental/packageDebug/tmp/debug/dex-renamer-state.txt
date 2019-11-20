@@ -1,0 +1,4 @@
+#Mon Nov 18 19:06:50 CET 2019
+base.0=C\:\\Users\\phili\\AndroidStudioProjects\\ScpClicker\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
